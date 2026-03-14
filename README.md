@@ -1,0 +1,2 @@
+# salonconnect
+Salon booking platform
