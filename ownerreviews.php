@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once "../config/db.php";
+require_once "config/db.php";
 
 // Check if logged in as owner
 if (!isset($_SESSION['user_id']) || $_SESSION['user_role'] !== 'owner') {
