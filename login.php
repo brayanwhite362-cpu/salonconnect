@@ -1,6 +1,6 @@
 <?php
-require_once __DIR__ . "/../config/init.php";
-require_once __DIR__ . "/../config/db.php";
+require_once "onfig/init.php";
+require_once "config/db.php";
 
 // If already logged in, go to correct page
 if (isset($_SESSION["user_id"])) {
