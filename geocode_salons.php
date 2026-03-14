@@ -1,6 +1,6 @@
 <?php
-require_once "../config/init.php";
-require_once "../config/db.php";
+require_once "config/init.php";
+require_once "config/db.php";
 
 echo "<h2>Geocoding Salons</h2>";
 
