@@ -1,6 +1,6 @@
 <?php
-require_once "config/init.php";
-require_once "config/db.php";
+require_once __DIR__ . "/config/init.php";
+require_once __DIR__ . "/config/db.php";
 
 // Get all active salons
 $result = $conn->query("SELECT id, name, address, phone, description FROM salons WHERE status='active' ORDER BY id ASC");
