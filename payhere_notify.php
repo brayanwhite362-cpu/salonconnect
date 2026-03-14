@@ -1,6 +1,6 @@
 <?php
-require_once "../config/db.php";
-require_once "../config/payhere.php";
+require_once "config/db.php";
+require_once "config/payhere.php";
 
 $merchant_id      = $_POST['merchant_id'] ?? '';
 $order_id         = $_POST['order_id'] ?? '';
