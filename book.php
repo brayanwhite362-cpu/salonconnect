@@ -3,9 +3,9 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-require_once "config/init.php";
-require_once "config/db.php";
-require_once "includes/email_helper.php";
+require_once __DIR__ . "config/init.php";
+require_once __DIR__ . "config/db.php";
+require_once __DIR__ . "includes/email_helper.php";
 
 echo "<h1>🔍 BOOKING DEBUG MODE</h1>";
 
