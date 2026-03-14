@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__ . "/config/init.php";
-require_once "config/db.php";
+require_once __DIR__ . "config/db.php";
 
 // Get real stats from database
 $totalSalons = $conn->query("SELECT COUNT(*) as count FROM salons WHERE status='active'")->fetch_assoc()['count'];
