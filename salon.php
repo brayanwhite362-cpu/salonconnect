@@ -1,7 +1,7 @@
 <?php
-require_once "../config/init.php";
-require_once "../config/db.php";
-require_once "../includes/cart_functions.php";
+require_once "config/init.php";
+require_once "config/db.php";
+require_once "includes/cart_functions.php";
 
 $isLoggedIn = isset($_SESSION['user_id']);
 $id = isset($_GET["id"]) ? (int)$_GET["id"] : 0;
