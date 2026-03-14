@@ -1,0 +1,286 @@
+/* ===== TEXT VISIBILITY FIXES ===== */
+
+/* Force all text to be visible */
+body, p, h1, h2, h3, h4, h5, h6, span, div, a, button, input, select, textarea, label, li, td, th {
+  color: #f5f4ff !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Special handling for muted text */
+.muted, .text-muted, .muted-text, .text-secondary, .text-gray {
+  color: #b8b6c8 !important;
+}
+
+/* Links should have gold color */
+a, .nav-link, .dropdown-item, .mobile-dropdown-link {
+  color: #f5f4ff !important;
+  transition: color 0.2s ease;
+}
+
+a:hover, .nav-link:hover, .dropdown-item:hover, .mobile-dropdown-link:hover {
+  color: #c8a14a !important;
+}
+
+/* Fix form inputs */
+input, select, textarea {
+  color: #ffffff !important;
+  background: rgba(255,255,255,0.1) !important;
+  border: 1px solid rgba(200,161,74,0.3) !important;
+}
+
+input::placeholder, select::placeholder, textarea::placeholder {
+  color: #888888 !important;
+  opacity: 1 !important;
+}
+
+/* Fix buttons */
+.btn, .btn-accent, .btn-outline-gold, .btn-primary, .btn-secondary {
+  color: #ffffff !important;
+}
+
+.btn-outline-gold {
+  color: #c8a14a !important;
+  border-color: #c8a14a !important;
+}
+
+.btn-outline-gold:hover {
+  color: #ffffff !important;
+  background: #c8a14a !important;
+}
+
+/* Fix price text */
+.price, .product-price, .service-price, .cart-item-price, .cart-item-subtotal {
+  color: #c8a14a !important;
+  font-weight: 600 !important;
+}
+
+/* Fix gold accents */
+.text-gold, .gold-text, [style*="color:var(--gold)"] {
+  color: #c8a14a !important;
+}
+
+/* Fix mobile dropdown items */
+.mobile-dropdown-link {
+  color: #f5f4ff !important;
+}
+
+.mobile-dropdown-link .material-symbols-rounded {
+  color: #c8a14a !important;
+}
+
+/* Fix profile dropdown */
+.profile-dropdown-item {
+  color: #f5f4ff !important;
+}
+
+.profile-dropdown-item .material-symbols-rounded {
+  color: #c8a14a !important;
+}
+
+.sign-out-item, .sign-out-item .material-symbols-rounded {
+  color: #ff6b6b !important;
+}
+
+/* Fix cart badge */
+.cart-badge, .cart-count, .badge {
+  color: #0b0b12 !important; /* Dark text on gold background */
+  background: #c8a14a !important;
+}
+
+/* Fix error messages */
+.alert-danger, .error-message {
+  color: #ff6b6b !important;
+  background: rgba(255,107,107,0.1) !important;
+  border-color: #ff6b6b !important;
+}
+
+.alert-success {
+  color: #4caf50 !important;
+  background: rgba(76,175,80,0.1) !important;
+  border-color: #4caf50 !important;
+}
+
+/* Fix modal text */
+.modal-content, .modal-header, .modal-body, .modal-footer {
+  color: #f5f4ff !important;
+  background: #1a1a2a !important;
+}
+
+.modal-title {
+  color: #c8a14a !important;
+}
+
+/* Fix table text */
+table, td, th, tr {
+  color: #f5f4ff !important;
+  border-color: rgba(255,255,255,0.1) !important;
+}
+
+/* Fix footer text */
+.footer, footer, .footer-content, .footer-links a {
+  color: #b8b6c8 !important;
+}
+
+.footer-links a:hover {
+  color: #c8a14a !important;
+}
+
+/* Fix specific pages */
+.about-hero-title, .contact-hero-title {
+  color: #ffffff !important;
+}
+
+.about-hero-title span, .contact-hero-title span {
+  color: #c8a14a !important;
+}
+
+.stat-number {
+  color: #c8a14a !important;
+}
+
+.stat-label {
+  color: #b8b6c8 !important;
+}
+
+.value-title {
+  color: #ffffff !important;
+}
+
+.value-description {
+  color: #b8b6c8 !important;
+}
+
+/* Fix team section */
+.team-name {
+  color: #ffffff !important;
+}
+
+.team-role {
+  color: #c8a14a !important;
+}
+
+/* Fix salon cards */
+.salon-card .fs-5 {
+  color: #ffffff !important;
+}
+
+.salon-card .muted.small {
+  color: #b8b6c8 !important;
+}
+
+/* Fix service cards */
+.service-name {
+  color: #ffffff !important;
+}
+
+.service-price {
+  color: #c8a14a !important;
+}
+
+.service-duration span {
+  color: #b8b6c8 !important;
+}
+
+/* Fix product cards */
+.product-name {
+  color: #ffffff !important;
+}
+
+.product-brand {
+  color: #c8a14a !important;
+}
+
+.product-price {
+  color: #c8a14a !important;
+}
+
+/* Fix category pills */
+.category-pill {
+  color: #f5f4ff !important;
+  background: rgba(255,255,255,0.05) !important;
+}
+
+.category-pill.active, .category-pill:hover {
+  color: #ffffff !important;
+  background: linear-gradient(135deg, #7b2cbf, #c8a14a) !important;
+}
+
+/* Fix wedding page */
+.artist-name {
+  color: #ffffff !important;
+}
+
+.artist-specialty {
+  color: #c8a14a !important;
+}
+
+.gender-tag {
+  color: #b8b6c8 !important;
+  background: rgba(255,255,255,0.05) !important;
+}
+
+/* Fix filter selects */
+.filter-select {
+  color: #ffffff !important;
+  background: rgba(255,255,255,0.05) !important;
+}
+
+.filter-select option {
+  color: #ffffff !important;
+  background: #1a1a2a !important;
+}
+
+/* Fix all material symbols */
+.material-symbols-rounded {
+  color: inherit;
+}
+
+/* Ensure no text is invisible due to z-index */
+.z-index-fix {
+  position: relative;
+  z-index: 1;
+}
+
+/* Fix for any elements with opacity */
+* {
+  opacity: 1 !important;
+}
+
+/* Fix for white text on white background */
+[style*="color: #fff"], [style*="color:#fff"], 
+[style*="color: white"], [style*="color:white"],
+[class*="text-white"] {
+  color: #f5f4ff !important;
+}
+
+/* Fix for black text on dark background */
+[style*="color: #000"], [style*="color:#000"],
+[style*="color: black"], [style*="color:black"],
+[class*="text-black"], [class*="text-dark"] {
+  color: #f5f4ff !important;
+}
+
+/* Fix font sizes for readability */
+@media screen and (max-width: 768px) {
+  body, p, li, td, th, input, select, textarea, button {
+    font-size: 16px !important; /* Minimum readable size on mobile */
+  }
+  
+  h1 { font-size: 28px !important; }
+  h2 { font-size: 24px !important; }
+  h3 { font-size: 20px !important; }
+  h4 { font-size: 18px !important; }
+  h5 { font-size: 16px !important; }
+}
+
+/* Fix for very small text */
+small, .small, .text-small, .text-sm, .muted.small {
+  font-size: 14px !important;
+  color: #b8b6c8 !important;
+}
+
+/* Fix for any hidden text */
+[hidden], .hidden, .d-none, [style*="display: none"] {
+  display: none !important; /* These should stay hidden */
+}
